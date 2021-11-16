@@ -3577,7 +3577,13 @@ button.swiper-pagination-bullet {
 
   display: block;
 
+  height: 530px;
+}
+/* .works__card:nth-child(odd) {
   height: 630px;
+} */
+.works__card:nth-child(even) {
+  height: 430px;
 }
 @media only screen and (max-width: 1000px) {
   .works__card {
