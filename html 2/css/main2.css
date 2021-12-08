@@ -1,13 +1,13 @@
 ::-moz-selection {
   color: #fff;
 
-  background-color: #99e836;
+  background-color: #0080cd;
 }
 
 ::selection {
   color: #fff;
 
-  background-color: #99e836;
+  background-color: #0080cd;
 }
 
 .fancybox-active {
@@ -1166,7 +1166,8 @@ a {
 }
 body {
   color: #fff;
-  font-family: NeueMachina;
+  font-family: "Poppins", sans-serif;
+  /* font-family: NeueMachina; */
 }
 @media only screen and (max-width: 1000px) {
   body {
@@ -1256,10 +1257,11 @@ body {
 ::-webkit-scrollbar-thumb {
   border: 1px solid #000;
   border-radius: 8px;
-  background-color: #99e836;
+  background-color: #0080cd;
 }
 .neue {
-  font-family: NeueMachina, sans-serif;
+  font-family: "Poppins", sans-serif;
+  /* font-family: NeueMachina, sans-serif; */
   font-style: normal;
 }
 .neue-headline1 {
@@ -1316,7 +1318,7 @@ body {
 }
 .neue-headline2-green {
   text-transform: uppercase;
-  color: #99e836;
+  color: #0080cd;
   font-size: 70px;
   line-height: 110%;
   font-weight: 500;
@@ -1403,7 +1405,7 @@ body {
 }
 .neue-link {
   text-transform: uppercase;
-  color: #99e836;
+  color: #0080cd;
   font-size: 22px;
   line-height: 120%;
   font-weight: 500;
@@ -1480,7 +1482,7 @@ body {
 
   color: #0d0d0c;
 
-  background: #99e836;
+  background: #0080cd;
 
   -webkit-transition: background 0.3s linear;
   transition: background 0.3s linear;
@@ -2329,9 +2331,10 @@ button.swiper-pagination-bullet {
 .header__logo {
   font-size: 24px;
   line-height: 120%;
-
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+}
+.header__logo img {
+  align-items: center;
+  width: 30%;
 }
 @media only screen and (max-width: 1440px) {
   .header__logo {
@@ -2433,7 +2436,7 @@ button.swiper-pagination-bullet {
     transition: all ease-out 0.3s;
   }
   .header__links li:hover {
-    color: #99e836;
+    color: #0080cd;
 
     -webkit-transition: all ease-out 0.3s;
     transition: all ease-out 0.3s;
@@ -2451,7 +2454,7 @@ button.swiper-pagination-bullet {
   font-size: 40px;
   line-height: 120%;
 
-  background: #99e836;
+  background: #0080cd;
   opacity: 0;
 
   -webkit-transition: 0.3s;
@@ -2910,7 +2913,7 @@ button.swiper-pagination-bullet {
   font-weight: 500;
 
   background: url(../images/arrow-right.svg) no-repeat;
-  background-color: #99e836;
+  background-color: #0080cd;
   background-position: right 28px center;
 
   -webkit-transition: all ease-out 0.3s;
@@ -2951,8 +2954,9 @@ button.swiper-pagination-bullet {
   white-space: nowrap;
   text-transform: uppercase;
   text-overflow: ellipsis;
-  color: #99e836;
-  font-family: NeueMachina, sans-serif;
+  color: #0080cd;
+  font-family: "Poppins", sans-serif;
+  /* font-family: NeueMachina, sans-serif; */
   font-size: 70px;
   line-height: 110%;
   font-weight: 500;
@@ -2986,7 +2990,7 @@ button.swiper-pagination-bullet {
   -webkit-transition: all ease-out 0.3s;
   transition: all ease-out 0.3s;
 
-  fill: #99e836;
+  fill: #0080cd;
 }
 @media only screen and (max-width: 992px) {
   .m2link__arrow {
@@ -3227,7 +3231,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (min-width: 993px) {
   .hero-description__li--share:hover {
-    color: #99e836;
+    color: #0080cd;
 
     -webkit-transition: all ease-out 0.3s;
     transition: all ease-out 0.3s;
@@ -3338,7 +3342,7 @@ button.swiper-pagination-bullet {
 .body__important {
   margin-bottom: 126px;
 
-  color: #99e836;
+  color: #0080cd;
 }
 @media only screen and (max-width: 992px) {
   .body__important {
@@ -3448,7 +3452,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (min-width: 993px) {
   .body-share__li:hover {
-    color: #99e836;
+    color: #0080cd;
 
     -webkit-transition: all ease-out 0.3s;
     transition: all ease-out 0.3s;
@@ -3834,7 +3838,7 @@ button.swiper-pagination-bullet {
 }
 .comments-form__save input:checked ~ .comments-form__checkmark {
   border: none;
-  background-color: #99e836;
+  background-color: #0080cd;
 }
 .comments-form__save input:checked ~ .comments-form__checkmark::after {
   display: block;
@@ -4257,7 +4261,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (min-width: 993px) {
   .m2footer a:hover {
-    color: #99e836;
+    color: #0080cd;
 
     -webkit-transition: all ease-out 0.3s;
     transition: all ease-out 0.3s;
