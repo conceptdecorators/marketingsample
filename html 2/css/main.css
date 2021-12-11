@@ -1639,7 +1639,7 @@ body {
 }
 @media only screen and (max-width: 620px) {
   .section-main {
-    padding-top: 72px;
+    padding-top: 115px;
 
     padding-right: 10px;
 
@@ -1745,7 +1745,8 @@ body {
 }
 @media only screen and (max-width: 1920px) {
   .neue-headline1 {
-    font-size: 70px;
+    /* font-size: 70px; */
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 1559px) {
@@ -1755,22 +1756,22 @@ body {
 }
 @media only screen and (max-width: 1350px) {
   .neue-headline1 {
-    font-size: 70px;
+    font-size: 50px;
   }
 }
 @media only screen and (max-width: 768px) {
   .neue-headline1 {
-    font-size: 56px;
+    font-size: 45px;
   }
 }
 @media only screen and (max-width: 620px) {
   .neue-headline1 {
-    font-size: 42px;
+    font-size: 35px;
   }
 }
 @media only screen and (max-width: 450px) {
   .neue-headline1 {
-    font-size: 32px;
+    font-size: 30px;
   }
 }
 .neue-headline2 {
@@ -3682,6 +3683,21 @@ button.swiper-pagination-bullet {
     display: none !important;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .img-four {
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 129px;
+    height: 150px;
+    background: url(../img/main/about/img-festival.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
+
 .experience__title {
   margin-bottom: 4.62963vh;
 }
@@ -4705,6 +4721,20 @@ button.swiper-pagination-bullet {
 
   max-width: 700px;
 }
+.services__tab-img {
+  height: 350px;
+}
+@media only screen and (max-width: 1024px) {
+  .services__tab-img {
+    height: 200px;
+  }
+}
+/* @media only screen and (max-width: 1000px){
+  .services__tab-img {
+    height: 250px;
+  }
+} */
+
 @media only screen and (max-width: 1000px) {
   .services__tabs {
     display: none;
@@ -4764,10 +4794,7 @@ button.swiper-pagination-bullet {
     padding-top: 58.99705%;
   }
 }
-.services__tab-img {
-  margin-bottom: 40px;
-  height: 400px;
-}
+
 @media only screen and (max-width: 1000px) {
   .services__tab-img {
     position: absolute;
@@ -5982,7 +6009,18 @@ button.swiper-pagination-bullet {
   font-family: "Poppins", sans-serif;
   color: white;
 }
-
+@media only screen and (max-width: 450px) {
+  .center-text .text {
+    text-align: center;
+    font-size: 15px;
+    z-index: 10;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+    color: white;
+  }
+}
 .img-one {
   position: absolute;
   top: 8%;
@@ -5990,6 +6028,10 @@ button.swiper-pagination-bullet {
   transform: translateX(-50%);
   width: 280px;
   height: 340px;
+
+  max-width: calc(50% - 4px);
+
+  max-height: calc(100% - 8px);
   background: url("../img/main/about/img-cbd.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
@@ -6025,5 +6067,66 @@ button.swiper-pagination-bullet {
   background: url("../img/main/about/img-festival.jpg") no-repeat 50% 50%;
   background-size: cover;
 }
+@media only screen and (max-width: 450px) {
+  .img-one {
+    position: absolute;
+    top: 0%;
+    left: 25%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 180px;
 
+    max-width: calc(50% - 4px);
+
+    max-height: calc(100% - 8px);
+    background: url("../img/main/about/img-cbd.jpg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .img-two {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 200px;
+    height: 120px;
+    background: url("../img/main/about/img-party-1.jpg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+
+  .img-three {
+    position: absolute;
+    left: 67%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100px;
+    height: 120px;
+    background: url("../img/main/works/drinkcalexo.jpg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .img-four {
+    position: absolute;
+    left: 25%;
+    bottom: 8%;
+    transform: translateX(-50%);
+    z-index: 2;
+    width: 100px;
+    height: 120px;
+    background: url("../img/main/about/img-festival.jpg") no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
+
+.section__contacts .contact .footer--menu {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5.333333333333333vw;
+  width: 100%;
+}
+@media (min-width: 451px) {
+  .section__contacts .contact .footer--menu {
+    width: 52vw;
+    margin: 0;
+  }
+}
 /*# sourceMappingURL=maps/main.css.map */
