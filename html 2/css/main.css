@@ -5948,6 +5948,7 @@ button.swiper-pagination-bullet {
 
   line-height: 155%;
   font-weight: 500;
+  padding: 100px;
 }
 @media only screen and (max-width: 450px) {
   .center-text .text {
