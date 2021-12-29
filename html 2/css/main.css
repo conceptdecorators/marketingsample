@@ -3046,7 +3046,8 @@ button.swiper-pagination-bullet {
   }
 }
 .home-image {
-  position: relative;
+  z-index: 10;
+  /* position: relative;
 
   z-index: 10;
 
@@ -3070,14 +3071,14 @@ button.swiper-pagination-bullet {
 
   -o-object-fit: cover;
 
-  object-fit: cover;
+  object-fit: cover; */
 }
 .home-image--mobile {
   display: none;
 
-  -webkit-transform: scaleX(-1);
+  /* -webkit-transform: scaleX(-1);
 
-  transform: scaleX(-1);
+  transform: scaleX(-1); */
 }
 @media only screen and (max-width: 1900px) {
   .home-image {
@@ -5949,6 +5950,8 @@ button.swiper-pagination-bullet {
   line-height: 155%;
   font-weight: 500;
   padding: 100px;
+  /* width: 60%; */
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 450px) {
   .center-text .text {
@@ -5960,6 +5963,7 @@ button.swiper-pagination-bullet {
     overflow: hidden;
     font-family: "Poppins", sans-serif;
     color: white;
+    padding: 0px;
   }
 }
 .img-one {
