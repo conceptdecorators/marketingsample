@@ -1618,7 +1618,7 @@ body {
 .section-main {
   position: relative;
 
-  padding-top: 15.83333vh;
+  padding-top: 20.83333vh;
 
   padding-right: 70px;
 
@@ -3155,7 +3155,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 1559px) {
   .home-author {
-    padding: 9% 2% 3% 40px;
+    padding: 10% 2% 3% 40px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -3357,7 +3357,7 @@ button.swiper-pagination-bullet {
 }
 @media only screen and (max-width: 1559px) {
   .home-ticker {
-    top: 45%;
+    top: 60%;
 
     width: 96.5%;
   }
@@ -4740,7 +4740,7 @@ button.swiper-pagination-bullet {
   max-width: 700px;
 }
 .services__tab-img {
-  height: 350px;
+  height: 300px;
 }
 @media only screen and (max-width: 1024px) {
   .services__tab-img {
@@ -5932,7 +5932,7 @@ button.swiper-pagination-bullet {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   overflow: hidden;
   flex-direction: column;
@@ -5953,6 +5953,12 @@ button.swiper-pagination-bullet {
   /* width: 60%; */
   margin-bottom: 20px;
 }
+@media only screen and (max-width: 768px) {
+  .center-text {
+    height: 170vh;
+  }
+}
+
 @media only screen and (max-width: 450px) {
   .center-text .text {
     text-align: center;
@@ -5966,6 +5972,12 @@ button.swiper-pagination-bullet {
     padding: 0px;
   }
 }
+@media only screen and (max-width: 450px) {
+  .center-text {
+    height: 150vh;
+  }
+}
+
 .img-one {
   position: absolute;
   top: 8%;
